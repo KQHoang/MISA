@@ -1,0 +1,217 @@
+/* form thông tin nhân viên */
+
+.popup {
+    background-color: #0000004f;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.ms-popup {
+    background-color: #fff;
+    /* display: none; */
+    min-width: 900px;
+    max-width: 900px;
+    width: 900px;
+    position: absolute;
+    /* z-index: 10; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 590px;
+}
+
+.ms-popup--header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px 5px;
+    position: relative;
+}
+
+.ms-popup--title {
+    display: flex;
+    width: 100%;
+    padding: 20px 32px;
+    padding-right: 12px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+}
+
+.popup--title {
+    font-size: 24px;
+    color: #111;
+    font-weight: 700;
+}
+
+.popup-checkbox {
+    justify-content: flex-start;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+.checkbox-popup {
+    margin: 0;
+    height: 18px;
+    width: 18px;
+}
+
+.label-checkbox-label {
+    white-space: nowrap;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.ms-popup--close {
+    display: flex;
+    padding: 12px;
+}
+
+.help-btn {
+    margin-right: 6px;
+    background-position: -89px -145px;
+}
+
+.close-icon {
+    margin: 0px !important;
+    background-position: -144px -145px;
+}
+
+
+/* phần body form thông tin nhân viên */
+
+.ms-popup--main {
+    padding: 0 32px 20px 32px;
+}
+
+.w1-per2 {
+    width: 50% !important;
+}
+
+.p-r-26 {
+    padding-right: 26px;
+}
+
+.pd-b-12 {
+    padding-bottom: 12px;
+}
+
+.mg-top-12 {
+    margin-top: 12px;
+}
+
+.label-input--box {
+    font-weight: 700;
+    padding-bottom: 4px;
+    font-size: 12px;
+}
+
+.p-l-10 {
+    padding-left: 10px;
+}
+
+.label-pb-4 {
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+
+.row-input {
+    /* display: flex;
+    justify-content: space-between;
+    margin: 10px 0; */
+    padding-bottom: 12px;
+}
+
+.p-r-6 {
+    padding-right: 6px;
+}
+
+.col-input {
+    /* display: flex;
+    flex-basis: 100%; */
+    display: flex;
+}
+
+.input-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /*padding: 5px; */
+}
+
+.input-popup {
+    font-size: 13px;
+    border: 1px solid #babec5;
+    border-radius: 2px;
+    height: 32px;
+    color: inherit;
+    outline: none;
+    width: 100%;
+    padding: 0 12px 0 10px;
+}
+
+.input-radio--box {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.input-radio--box label {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.full-col {
+    flex-basis: 100%;
+}
+
+.input-popup:focus {
+    border-color: #2ca01c;
+}
+
+
+/* phần footer form thông tin nhân viên */
+
+.line {
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+    margin: 32px 0 20px;
+}
+
+.first-button {
+    padding: 0 0.75rem;
+}
+
+.popup-footer--button {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.m-notValid {
+    border-color: red;
+}
+
+[notValid] {
+    border-color: red;
+}
+
+.feild-required {
+    color: red;
+}
+
+.input-valid {
+    border-color: #E61D1D !important;
+}
+
+.w-18 {
+    width: 18px;
+}

@@ -1,0 +1,78 @@
+/* css button */
+
+.btn-default {
+    background-color: transparent;
+    cursor: pointer;
+    /* padding: 8px 23px 9px 23px; */
+    padding: 6px 16px;
+    height: 36px;
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid #8d9096;
+    font-weight: 600;
+}
+
+.btn-height-34 {
+    height: 34px !important;
+    padding: 6px 16px !important;
+    border-radius: 3px;
+}
+
+.btn-border-none {
+    border: none;
+}
+
+.btn-width-80 {
+    width: 80px;
+}
+
+.btn-marginleft-12 {
+    margin-left: 12px;
+}
+
+.btn-move-page-left,
+.btn-move-page-right {
+    cursor: default;
+}
+
+.btn-move-page-left {
+    margin-right: 15px;
+}
+
+.btn-move-page-right {
+    margin-left: 15px;
+}
+
+.btn-success {
+    background-color: #2ca01c !important;
+    /* padding: 8px 16px 9px 16px !important; */
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #35bf22!important;
+}
+
+.btn-success:active {
+    background-color: #248b15!important;
+}
+
+.btn-success:focus {
+    background-color: #2ca01c !important;
+}
+
+.btn-default:focus {
+    background-color: #E0E0E0;
+}
+
+.btn-default:hover {
+    background-color: #d2d3d6;
+}
+
+.btn-default:active {
+    background-color: #bbbcbc;
+}
+
+.input-checkbox:checked {
+    background-color: #018054 !important;
+}

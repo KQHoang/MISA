@@ -1,0 +1,51 @@
+/* css phần phân trang */
+
+.ms-pagination {
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: #fff;
+}
+
+.el-pager li.is-active {
+    font-weight: 700 !important;
+    color: #111111 !important;
+    cursor: pointer !important;
+    border: 1px solid #e0e0e0 !important;
+}
+
+.el-pagination {
+    --el-pagination-hover-color: none !important;
+}
+
+
+/* .record-in-page {
+    height: 32px;
+    margin: 0 16px;
+    width: 200px;
+    min-width: 200px;
+} */
+
+
+/* .combo-main-content select {
+    height: 32px;
+} */
+
+
+/* .page {
+    display: flex;
+    line-height: 32px;
+}
+
+.page-number-list {
+    display: flex;
+}
+
+.page-item {
+    padding: 0 5px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+} */

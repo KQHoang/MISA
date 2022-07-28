@@ -1,0 +1,170 @@
+/* css phần menu bên trái */
+
+.menu-container.expand {
+    width: auto;
+}
+
+.menu-container {
+    font-size: 13px;
+    -webkit-transition: all .3s ease;
+    position: relative;
+    background-color: #393a3d;
+    width: 52px;
+    transition: all .2s ease;
+}
+
+
+/* icon option */
+
+.menu-container-option {
+    /* background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -428px -88px; */
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -428px -88px;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.expand .logo-container {
+    padding: 24px;
+}
+
+.logo-container {
+    display: flex;
+    background-color: #38393d;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* css cho logo */
+
+.logo {
+    height: 32px;
+    display: block;
+    /* background-image: url(../assets/img/Logo_Module_TiengViet_White.66947422.svg); */
+    background-image: url(../../assets/img/Logo_Module_TiengViet_White.66947422.svg);
+    width: 96px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* css phần danh sách menu menu */
+
+.menu-item-list {
+    padding-top: 14px;
+    height: calc(100vh - 48px);
+}
+
+.scroller {
+    overflow: auto;
+}
+
+.menu-item:hover::before {
+    content: "";
+    background: #d4d7dc;
+    opacity: .2;
+    width: calc(100% + 6px);
+    height: 42px;
+    left: -6px;
+    top: 0;
+    position: absolute;
+}
+
+.con-ms-tooltip .tooltip-content {
+    height: 100%;
+}
+
+.menu-item {
+    padding-left: 8px;
+    line-height: 42px;
+    height: 42px;
+    padding-right: 14px;
+    color: #fff;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    border-left: 6px solid transparent;
+}
+
+.menu-item__icon {
+    display: flex;
+    align-items: center;
+}
+
+.mi {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat;
+    cursor: pointer
+}
+
+.mi-24 {
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+
+/* bacground position */
+
+.mi-sidebar-dasboard {
+    background-position: -30px -1630px;
+}
+
+.cash {
+    background-position: -74px -1631px;
+}
+
+.bank {
+    background-position: -118px -1633px;
+}
+
+.pru {
+    background-position: -162px -1632px;
+}
+
+.sale {
+    background-position: -206px -1631px;
+}
+
+.invoice {
+    background-position: -250px -1632px;
+}
+
+.stock {
+    background-position: -291px -1629px;
+}
+
+.tools {
+    background-position: -336px -1629px;
+}
+
+.fix-assets {
+    background-position: -379px -1632px;
+}
+
+.tax {
+    background-position: -424px -1634px;
+}
+
+.price {
+    background-position: -468px -1633px;
+}
+
+.generral {
+    background-position: -336px -1633px;
+}
+
+.buget {
+    background-position: -379px -1664px;
+}
+
+.report {
+    background-position: -549px -1636px;
+}
+
+.finance {
+    background-position: -204px -1667px;
+}

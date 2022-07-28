@@ -1,0 +1,146 @@
+/*  css phần header  */
+
+.vx-navbar-wrapper {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    /* z-index: 100; */
+}
+
+.vx-navbar-wrapper .vx-navbar {
+    padding: 0;
+    height: 48px;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.flex {
+    display: flex!important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+
+/* icon header */
+
+.header-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-brach-name {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+.mg-10 {
+    margin: 0 10px;
+}
+
+
+/* baground position option */
+
+.stripes {
+    background-position: -843px -30px;
+}
+
+.ms-tooltip {
+    font-weight: 600;
+}
+
+.mi-14 {
+    width: 14px;
+    height: 14px;
+    min-width: 14px;
+    min-height: 14px;
+}
+
+
+/* background postion icon down */
+
+.brach-icon {
+    position: relative;
+    background-position: -1075px -33px;
+}
+
+
+/* khoảng trống giữa 2 navbar */
+
+.ms-space {
+    padding: 0;
+    margin: 0;
+    flex-grow: 1!important;
+    background: 0 0;
+}
+
+
+/* background position cho icon bell */
+
+.bell {
+    background-position: -256px -32px;
+    margin: 0px !important;
+}
+
+.tooltip-content-header {
+    height: 48px;
+    width: 44px;
+}
+
+.wrap-notify {
+    margin: 0 10px;
+    padding-top: 12px;
+}
+
+
+/* css cho avatar */
+
+.ms-component {
+    padding: 0 16px;
+}
+
+.account-info {
+    padding-right: 20px;
+}
+
+.user-ava {
+    border-radius: 15px;
+    background: #e2e2e2;
+    margin-right: 6px;
+}
+
+.avatar {
+    background-position: -353px -894px;
+    border-radius: 50%;
+}
+
+.user-name {
+    margin-right: 8px;
+}
+
+.account-name {
+    padding: 5px 0;
+    line-height: 13px;
+    font-size: 14px;
+}
+
+.mi-32 {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+.align-item {
+    align-items: center;
+}
+
+.margin-right-25 {
+    margin-right: 25px;
+}

@@ -1,0 +1,41 @@
+.toast-message-main {
+    display: flex;
+}
+
+.toast-message {
+    z-index: 1000;
+    height: 48px;
+    width: 450px;
+    background-color: #ffffff;
+    border-color: #707070;
+    position: fixed;
+    top: 65px;
+    left: calc((100vw - 450px)/2);
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.toast-message-icon {
+    background-position: -1602px -255px;
+    margin-right: 8px !important;
+}
+
+.toast-message-content {
+    display: flex;
+    line-height: 24px;
+}
+
+.toast-message-title {
+    color: #019160;
+    font-weight: 700;
+}
+
+.toast-icon-close {
+    background-position: -147px -145px;
+}
+
+.toast-message-label {
+    margin-left: 2px;
+}

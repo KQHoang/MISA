@@ -1,0 +1,115 @@
+/* css phần thông báo */
+
+.ms-message {
+    background-color: #0000004f;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 102;
+}
+
+.ms-message--danger {
+    width: 444px;
+    min-width: 444px;
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* z-index: 1100; */
+    padding: 32px;
+    /* display: none; */
+}
+
+.ms-message--content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.message-text {
+    padding-top: 12px;
+    padding-left: 16px;
+    margin-bottom: 32px;
+}
+
+.message-text li {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+/* css phần footer thông báo */
+
+.ms-message-footer {
+    text-align: center;
+}
+
+.line-message {
+    width: 100%;
+    border-top: 1px solid #b8bcc3;
+    margin: 0 0 20px 0;
+}
+
+
+/* css phần warning */
+
+.warning-text {
+    font-weight: 500 !important;
+    list-style-type: none;
+}
+
+.message-footer--warning {
+    text-align: right;
+}
+
+
+/* icon question */
+
+.icon-question {
+    height: 48px;
+    width: 48px;
+    min-height: 48px;
+    min-width: 48px;
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat;
+    background-position: -826px -456px;
+}
+
+
+/* icon message success */
+
+.icon-message-success {
+    height: 48px;
+    width: 48px;
+    min-height: 48px;
+    min-width: 48px;
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat;
+    background-position: -990px -455px;
+}
+
+
+/* icon message warning */
+
+.icon-warning-employeecode {
+    height: 48px;
+    width: 48px;
+    min-height: 48px;
+    min-width: 48px;
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat;
+    background-position: -593px -455px;
+}
+
+
+/* icon message danger (thiếu thông tin) */
+
+.icon-message {
+    height: 48px;
+    width: 48px;
+    min-height: 48px;
+    min-width: 48px;
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat;
+    background-position: -747px -455px;
+}
